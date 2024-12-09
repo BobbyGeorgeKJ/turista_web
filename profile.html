@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Turista</title>
+    <link rel="stylesheet" href="styles/style.css"> <!-- Assuming a global CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .profile-header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile-header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-bottom: 10px;
+        }
+        .profile-content {
+            padding: 20px;
+        }
+        .profile-content h2 {
+            margin-top: 0;
+        }
+        .profile-details {
+            margin: 10px 0;
+        }
+        .profile-details p {
+            margin: 5px 0;
+        }
+        .action-buttons {
+            text-align: center;
+            padding: 20px;
+        }
+        .action-buttons a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            border-radius: 5px;
+        }
+        .action-buttons a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Turista Web App</h1>
+    </div>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="https://via.placeholder.com/120" alt="User Avatar">
+            <h2>John Doe</h2>
+            <p>Travel Enthusiast</p>
+        </div>
+        <div class="profile-content">
+            <h3>Profile Details</h3>
+            <div class="profile-details">
+                <p><strong>Email:</strong> john.doe@example.com</p>
+                <p><strong>Phone:</strong> +1 234 567 890</p>
+                <p><strong>Location:</strong> New York, USA</p>
+                <p><strong>Member Since:</strong> January 2023</p>
+            </div>
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Passionate about exploring new destinations and cultures.</p>
+        </div>
+        <div class="action-buttons">
+            <a href="settings.html">Edit Profile</a>
+            <a href="index.html">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
